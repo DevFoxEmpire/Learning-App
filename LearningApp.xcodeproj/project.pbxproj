@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D857499297477430058A964 /* ContentViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D857498297477430058A964 /* ContentViewRow.swift */; };
 		3D97E251295284D4001D5484 /* LearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D97E250295284D4001D5484 /* LearningApp.swift */; };
 		3D97E253295284D4001D5484 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D97E252295284D4001D5484 /* HomeView.swift */; };
 		3D97E255295284D4001D5484 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D97E254295284D4001D5484 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D857498297477430058A964 /* ContentViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewRow.swift; sourceTree = "<group>"; };
 		3D97E24D295284D4001D5484 /* LearningApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D97E250295284D4001D5484 /* LearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningApp.swift; sourceTree = "<group>"; };
 		3D97E252295284D4001D5484 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				3DA5A723295E5EE300CC779A /* HomeViewRow.swift */,
 				3DA5A725295E663700CC779A /* QuetionView.swift */,
 				3DA5A727295E6AC700CC779A /* ContentView.swift */,
+				3D857498297477430058A964 /* ContentViewRow.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 				3DA5A728295E6AC700CC779A /* ContentView.swift in Sources */,
 				3DA5A726295E663700CC779A /* QuetionView.swift in Sources */,
 				3D97E251295284D4001D5484 /* LearningApp.swift in Sources */,
+				3D857499297477430058A964 /* ContentViewRow.swift in Sources */,
 				3D97E264295285C9001D5484 /* ContentModel.swift in Sources */,
 				3D97E26A29528B39001D5484 /* Models.swift in Sources */,
 			);

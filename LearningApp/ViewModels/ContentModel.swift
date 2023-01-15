@@ -71,14 +71,19 @@ class ContentModel: ObservableObject {
         
         //Find the index for this module ID
         
-        
+        for index in 0..<modules.count {
+            
+            if modules[index].id == moduleid {
+                
+                //Found the matching module
+                currentModuleIndex = index
+                break
+            }
+        }
+   
         // Set the current mudule
-        
-        
-        
+        currentModule = modules[currentModuleIndex]
+       
     }
-    
-    
-    
     
 }
